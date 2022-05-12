@@ -1,8 +1,3 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
-
-
 const postData = async (url, data) => {
     const res = await fetch(url, {
         method: 'POST',
